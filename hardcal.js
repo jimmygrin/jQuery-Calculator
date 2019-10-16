@@ -7,6 +7,8 @@ $(document).ready(function(){
     $(".container").on("click", "button", function(e){
 
        var val=$(this).html()
+
+    //    $("#result").html(val)
       
        if(val=== '='){
            if(oper==="+") {
@@ -32,9 +34,12 @@ $(document).ready(function(){
        } else {
            if(oper==="") {
             num1 += val
+            $("#result").html(val)
+         
     
            } else {
             num2 += val
+            $("#result").html(val)
            }
        }
 
