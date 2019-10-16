@@ -27,10 +27,12 @@ $(document).ready(function(){
            num1=""
            num2=''
            oper=''
+           $("#result").html("")
 
        } else {
            if(oper==="") {
             num1 += val
+    
            } else {
             num2 += val
            }
