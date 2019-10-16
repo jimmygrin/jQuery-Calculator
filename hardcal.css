@@ -1,0 +1,59 @@
+html {box-sizing: border-box;}
+*,**::before, **::after{box-sizing: inherit;}
+
+.container {
+    width:240px;
+    height: 300px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.bottom {
+    display: flex;
+
+}
+
+#result{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(96,170,80);
+    color: white;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    line-height: 2;
+    font-size: 24px;
+   
+
+}
+.firstrow {
+    display: flex;
+    height: 60px;
+    width: 240px;
+}
+
+.firstcol .secondcol .thirdcol .operator {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.buttons {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(96,170,80);
+    color: white;
+    font-size: 18px;
+}
+
+.operator {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(124,185,111);
+    color: white;
+    font-size: 18px;
+}
